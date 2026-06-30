@@ -71,7 +71,7 @@ Expected output:
 * Docker version information
 * Docker daemon active
 
-Add your screenshot here:
+Output:
 
 ![Terminal capture: Puku verifying Docker installation and daemon status](image/CLI%20Commands%20and%20reply/setup.png)
 
