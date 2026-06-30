@@ -417,8 +417,6 @@ Expected pattern:
 
 ![Terminal capture: Puku computing restart delays from timestamps](image/CLI%20Commands%20and%20reply/restart-delays.png)
 
-![Diagram: Docker restart policies at a glance](image/CLI%20Commands%20and%20reply/Docker%20Restart%20policies.png)
-
 ## 4.7 Assessment
 
 Why does Docker use exponential backoff?
