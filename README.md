@@ -8,6 +8,10 @@ Docker provides restart policies to automatically restart failed containers. To 
 
 This lab explores Docker restart behavior using Puku CLI, an MCP-powered AI terminal assistant capable of executing infrastructure operations through natural language instructions.
 
+**Architecture overview**
+
+![Architecture diagram of the Docker restart and Puku CLI workflow](image/Architecture/Architecture.svg)
+
 ---
 
 ## Learning Objectives
