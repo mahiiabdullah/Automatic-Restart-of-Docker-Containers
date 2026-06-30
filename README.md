@@ -198,7 +198,7 @@ Prompt to Puku:
 Create a Docker container named no-restart using BusyBox. It should print the current UTC time once and exit. Do not apply any restart policy. Then show the container status.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku creating no-restart container and showing its status](image/CLI%20Commands%20and%20reply/no-restart.png)
 
@@ -275,7 +275,7 @@ Prompt to Puku:
 Create a container named fail-restart that exits with status code 1 and uses Docker restart policy on-failure. Monitor its behavior.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku creating fail-restart with on-failure policy and confirming restart loop](image/CLI%20Commands%20and%20reply/on-failure.png)
 
@@ -369,7 +369,7 @@ Prompt to Puku:
 Create a Docker container named backoff-detector using BusyBox that prints the current UTC time and exits immediately. Apply restart policy always and continuously monitor restart behavior.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku creating backoff-detector with restart policy always](image/CLI%20Commands%20and%20reply/backoff-create-1.png)
 
@@ -401,7 +401,7 @@ Prompt to Puku:
 Show restart timestamps for backoff-detector.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku showing backoff-detector restart timestamps](image/CLI%20Commands%20and%20reply/backoff-logs.png)
 
@@ -471,7 +471,7 @@ Prompt to Puku:
 Try executing "echo hello" inside backoff-detector while it is restarting.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku failing to exec into backoff-detector during restart loop](image/CLI%20Commands%20and%20reply/exec-failure.png)
 
@@ -551,7 +551,7 @@ Prompt to Puku:
 Inspect backoff-detector and show container state and restart count.
 ```
 
-Add screenshot:
+Output:
 
 ![Terminal capture: Puku inspecting backoff-detector metadata showing state and RestartCount](image/CLI%20Commands%20and%20reply/inspect.png)
 
