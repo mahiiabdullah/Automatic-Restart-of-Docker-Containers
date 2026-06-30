@@ -1,10 +1,14 @@
 # Automatic Restart of Docker Containers using Puku CLI
 
+Author: mahiiabdullah
+
 ## Introduction
 
 Docker containers provide isolated environments for deploying applications consistently across systems. In production environments, containers may fail due to application crashes, configuration errors, or resource exhaustion. Service reliability depends on recovering from such failures safely and efficiently.
 
 Docker provides restart policies to automatically restart failed containers. To prevent restart storms during repeated failures, Docker applies exponential backoff, increasing the delay between restart attempts.
+
+The architecture SVG below summarizes the Docker restart and Puku CLI workflow used throughout this lab.
 
 This lab explores Docker restart behavior using Puku CLI, an MCP-powered AI terminal assistant capable of executing infrastructure operations through natural language instructions.
 
